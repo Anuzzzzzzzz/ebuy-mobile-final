@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:hamropasalmobile/home_page.dart';
+import 'package:hamropasalmobile/pages/home_page.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});

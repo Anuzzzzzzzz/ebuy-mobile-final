@@ -1,4 +1,4 @@
-import '../model/product_model.dart';
+import 'product_model.dart';
 
 List<ProductModel> productItems = [
   // Product List 1

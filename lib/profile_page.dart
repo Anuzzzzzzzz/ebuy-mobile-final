@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hamropasalmobile/constants/themes.dart';
+import 'package:hamropasalmobile/themes/themes.dart';
 
 final currentIndexProvider = StateProvider<int>((ref) {
   return 0;
@@ -37,7 +37,7 @@ Widget build(BuildContext context, WidgetRef ref) {
             mainAxisSize: MainAxisSize.min,
             children: [
               ListTile(
-                title: const Text('Avatar'),
+                title: const Text('avatar'),
                 trailing: Stack(
                   alignment: Alignment.center,
                   children: [
@@ -58,7 +58,7 @@ Widget build(BuildContext context, WidgetRef ref) {
                         child: const Icon(
                           Icons.edit,
                           size: 20,
-                          color: Colors.purple,
+                          color: Color.fromARGB(255, 226, 181, 234),
                         ),
                       ),
                     ),
@@ -68,12 +68,12 @@ Widget build(BuildContext context, WidgetRef ref) {
               const Divider(),
               const ListTile(
                 title: Text('Email'),
-                subtitle: Text('aa@aa.com'),
+                subtitle: Text('Aa@aa.com'),
                 trailing: Icon(Icons.edit),
               ),
               const Divider(),
               const ListTile(
-                title: Text('Change Password'),
+                title: Text('Change password'),
                 trailing: Icon(Icons.edit),
               ),
             ],
